@@ -1,0 +1,80 @@
+body {
+  background: #14213d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  background: #b7b7a4;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 3rem;
+  text-align: end;
+  width: 310px;
+  outline: none;
+}
+.container {
+  background: #6b705c;
+  border-radius: 15px;
+  border: 1px solid #6e6a6f;
+  width: 350px;
+  height: 500px;
+}
+
+.btn0 {
+  grid-column: 2;
+}
+
+.btnDivide {
+  grid-column: 4;
+  grid-row: 4;
+}
+
+.btnEquals {
+  grid-column: 4;
+}
+
+.btnClear {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.main .btnBack {
+  grid-row: 5;
+  grid-column: 3;
+  background-color: black;
+  color: #6b705c;
+}
+.main .btnBack:hover {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.btnComma {
+  grid-row: 5;
+  grid-column: 2;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  display: grid;
+  height: 350px;
+}
+
+.buttons {
+  padding: 5px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.buttons:hover {
+  color: #03045e;
+}
