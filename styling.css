@@ -1,22 +1,30 @@
 body {
-  background: #14213d;
+  background: linear-gradient(150deg, #5cc8ff, #00a3f5, #d63c6b, #c41c4f);
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
+
+/* #d63c6b;
+  --primary-dk: #c41c4f;
+  --accent: #5cc8ff;
+  --accent-dk: #00a3f5; */
 
 .screen {
   background: #b7b7a4;
   height: 100px;
   margin: 10px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 3rem;
   text-align: end;
-  width: 310px;
+  width: 320px;
   outline: none;
 }
 .container {
-  background: #6b705c;
+  background: rgba(19, 19, 19, 0.75);
   border-radius: 15px;
   border: 1px solid #6e6a6f;
   width: 350px;
@@ -44,8 +52,9 @@ body {
 .main .btnBack {
   grid-row: 5;
   grid-column: 3;
-  background-color: black;
-  color: #6b705c;
+  background-color: rgba(19, 19, 19, 0.64);
+  color: black;
+  /* height: 100vh; */
 }
 .main .btnBack:hover {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
